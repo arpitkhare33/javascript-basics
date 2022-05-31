@@ -92,5 +92,6 @@ findUser = () => {
     console.log(userName);
     let res = users.filter(searchUser);
     console.log(res);
+    
     document.getElementById("userDetails").innerHTML = res[0].salary;
 }
